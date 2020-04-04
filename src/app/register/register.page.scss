@@ -1,11 +1,16 @@
+ion-content{
+    --background: #5a0e5a;
+}
+
 ion-item{
-    --background: #3880ff;
+    --background: #5a0e5a;
     --color: #fff;
 }
 ion-button{
     --background: #062f77;
     border-radius: 12px;
     margin-left: 50px;
+    font-size: 10px;
     margin-right: 50px;
 }
 ion-grid{

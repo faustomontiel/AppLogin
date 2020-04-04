@@ -1,13 +1,13 @@
-<ion-content color="primary" padding>
+<ion-content  padding>
   <form #form="ngForm">
     <ion-grid>
-      <ion-row color="primary" justify-content-center>
+      <ion-row  justify-content-center>
         <ion-col align-self-center size-md="6" size-lg="5" size-xs="12">
           <div text-center>
           </div>
           <div  padding>
             <ion-item>
-              <ion-input name="email" type="email" placeholder="your@email.com" [(ngModel)]="usuario.email" required></ion-input>
+              <ion-input name="email" type="email" placeholder="name@email.com" [(ngModel)]="usuario.email" required></ion-input>
             </ion-item>
             <ion-item>
               <ion-input name="password" type="password" placeholder="Password" [(ngModel)]="usuario.password" required></ion-input>
@@ -18,7 +18,7 @@
           <div class="divbuttons" padding>
             <ion-button size="large" type="submit" (click)="registrarDo(usuario)"  expand="block">Register</ion-button>
             <br>
-            <ion-button size="large" type="submit" (click)="backLogin()"  expand="block"><-</ion-button>
+            <ion-button size="large" type="submit" (click)="backLogin()"  expand="block"><-back</ion-button>
           </div>
         </ion-col>
       </ion-row>
