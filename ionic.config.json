@@ -1,0 +1,8 @@
+{
+  "name": "AppLogin",
+  "integrations": {
+    "capacitor": {},
+    "cordova": {}
+  },
+  "type": "angular"
+}
